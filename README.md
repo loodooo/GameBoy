@@ -20,7 +20,7 @@ How to Run
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/Theonito08/GameBoy.git](https://github.com/Theonito08/GameBoy.git)
+   git clone https://github.com/Theonito08/GameBoy.git
 2. Run the program
 3. Choose a compatible .gb file (see the cartridge types supported)
 4. Enjoy!
