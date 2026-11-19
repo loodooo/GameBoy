@@ -136,11 +136,7 @@ namespace GameBoyEmu.Main
 
             display.widget.KeyPressEvent += OnKeyDown;
             display.widget.KeyReleaseEvent += OnKeyUp;  
-
-            display.widget.ButtonPressEvent += delegate
-            {
-                display.widget.GrabFocus();
-            };
+            display.widget.ButtonPressEvent += OnButtonPress;
 
             layout.PackStart(menuBar, false, false, 0);
             layout.PackStart(display.widget, true, true, 0);
@@ -294,6 +290,10 @@ namespace GameBoyEmu.Main
             return true;
         }
 
+        private void OnButtonPress(object sender, EventArgs args)
+        {
+            display.widget.GrabFocus();
+        }
         private void OnKeyDown(object sender, KeyPressEventArgs pressArgs)
         {
             bool keyHandled = true;
