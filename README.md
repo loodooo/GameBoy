@@ -17,6 +17,7 @@ Currently it supports No MBC, MBC1, MBC5 (with all their variants).
 ### Dependencies
 
 - **GTK:**
+
 Arch   ```sudo pacman -S gtk4```
 
 Debian ```sudo apt-get install libgtk-4-dev```
@@ -26,6 +27,7 @@ Fedora ```sudo dnf install gtk4-devel```
 Gentoo ```emerge --ask dev-libs/gtk```
 
 - **DotNet 9:**
+
 Arch   ```sudo pacman -S dotnet-sdk```
 
 Debian ```sudo apt-get install dotnet-sdk-9.0```
