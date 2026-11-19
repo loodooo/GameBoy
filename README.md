@@ -1,3 +1,7 @@
+Topics
+Selected: gtk, gameboy, gameboy-emulator
+gtk (press backspace or delete to remove)gameboy (press backspace or delete to remove)gameboy-emulator (press backspace or delete to remove)
+Include in the home page
 # GameBoy Emulator (C#)
 
 A Game Boy emulator built from scratch in C# using GTK for the graphics and interface.
