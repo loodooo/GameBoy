@@ -18,13 +18,13 @@ Currently it supports No MBC, MBC1, MBC5 (with all their variants).
 
 - **GTK:**
 
-Arch   ```sudo pacman -S gtk4```
+Arch   ```sudo pacman -S gtk3```
 
-Debian ```sudo apt-get install libgtk-4-dev```
+Debian ```sudo apt-get install libgtk-3-dev```
 
-Fedora ```sudo dnf install gtk4-devel```
+Fedora ```sudo dnf install gtk3-devel```
 
-Gentoo ```emerge --ask dev-libs/gtk```
+Gentoo ```emerge --ask x11-libs/gtk+:3```
 
 - **DotNet 9:**
 
