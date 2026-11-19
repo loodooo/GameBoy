@@ -10,7 +10,7 @@ I [Theo Nito](https://github.com/Theonito08) made this for my computer science N
 - **Audio:** 4-Channel Audio, with basic timing but its good enough
 - **Controls:** D pad = WASD, A button = Z, B button = X, START = C, SELECT = V
 
-###Cartridge types supported:
+#### Cartridge types supported:
 Although all cartridge types are recognised, since different cartridge types work differently, this emulator cannot support them all.
 Currently it supports No MBC, MBC1, MBC5 (with all their variants).
 
